@@ -1,0 +1,224 @@
+/* Removing padding, margins, text decoration and bullet points for all elements */
+*{
+    padding: 0;                       
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Background color of the webpage */
+body{
+background-color:  #324856;
+}
+
+/* Style of the text on the home page */
+.mainpage_txt{
+    color: silver;
+    font-family: Verdana;
+    position: absolute;
+    top: 30%;
+    padding: 50px;
+    
+}
+
+.mainpage_txt p{
+    line-height: 35px;
+}
+
+/* Image of camera positioning and size */
+img{
+    position: absolute;
+    width: 360px;
+    top: 23%;
+    left: 65%;
+}
+
+/* Style of text on the video page */
+.videopage_txt{
+    float: left;
+    color: silver;
+    font-family: Verdana;
+    position: absolute;
+    top: 25%;
+    left: 30px;
+}
+
+/* Video page heading style */
+.videopage_txt h3{
+    margin-bottom: 30px;
+    font-size: 32pt;
+    text-align: center;
+    width: 60%;
+}
+
+/* Video page text style */
+.videopage_txt p{
+    font-size: 18pt;
+    width: 60%;
+    text-align: center;
+}
+
+/* Game page text style */
+.game_head{
+    color: rgb(37, 37, 37);
+    font-family: Verdana;
+    font-size: 28pt;
+    text-align: center;
+    width: 40%;
+    padding: 60pt;
+    position: relative;
+    left: 23%;
+    
+}
+
+/* Text displaying the timer */
+.timer_txt{
+    color: rgb(37, 37, 37);
+    font-family: Verdana;
+    font-size: 72pt;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+/* Click Me! button */
+.clicker_button{
+    background: #4a746a;
+    color:silver;
+    font-family: Verdana;
+    font-size: 32pt;
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    width: 220px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    /* When the cursor is hovering, change it to pointer */
+    cursor: pointer;
+}
+
+/* Restart the page button */
+.restart_button{
+    background: #ce4141;
+    color:silver;
+    font-family: Verdana;
+    font-size: 32pt;
+    display: block;
+    position: absolute;
+    top: 77%;
+    left: 40%;
+    width: 220px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+/* How many clicks counter */
+.click_cnt{
+    color: rgb(37, 37, 37);
+    font-family: Verdana;
+    font-size: 42pt;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+
+}
+
+/* Your clicks per second counter */
+.your_speed{
+    color: rgb(37, 37, 37);
+    font-family: Verdana;
+    font-size: 42pt;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+
+}
+
+/* Navigation Bar */
+nav{
+    height: 90px;
+    width:100%;
+    background-color: #4a746a;
+}
+
+/* Proper alignment */
+nav ul{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    width: 500px;
+
+}
+/* Logo in upper left corner */
+nav p{
+    float: left;
+    display: flex;
+    color: rgb(15, 15, 15);
+    margin-left: 30px;
+    width: 70px;
+    font-family: 'Alfa Slab One';
+    font-size: 42pt;
+    line-height: 100px;
+}
+
+/* Proper alignment verticaly */
+nav ul li{
+
+    line-height: 90px;
+}
+
+/* Style of navigation bar text */
+nav ul li a{
+    color: silver;
+    font-family: Verdana;
+    font-size: 18pt;
+    padding: 6px 16px;
+    
+}
+
+/* The button changes when mouse is hovering */
+nav ul li a:hover{
+    color: rgb(6, 43, 73);
+    background-color: silver;
+
+}
+
+/* About text style */
+
+.about_txt{
+    position: absolute;
+    top: 15%;
+    color: silver;
+    font-family: Verdana;
+}
+
+.about_txt h5{
+    font-size: 36pt;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.about_txt p{
+    font-size: 26pt;
+    padding: 20px 30px;
+    position: relative;
+    width: 90%;
+    line-height: 50px;
+
+
+}
+
+/* Youtube video positioning */
+iframe{
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
