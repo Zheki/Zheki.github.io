@@ -166,8 +166,9 @@ nav ul li a:hover{
 
 }
 
-video{
+iframe{
     width: 50%;
+    height: 55%;
     position: absolute;
     top: 25%;
     left: 25%;
