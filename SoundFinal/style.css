@@ -1,0 +1,139 @@
+html{
+  background-color: #4B5320;
+  }
+
+header{
+  position: relative;
+  background-color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 32px;
+  color: rgb(177, 177, 177);
+  text-align: center;
+  background-image: url(wire.jpg);   
+}
+
+.message{
+  background-color: rgb(109, 138, 98);
+  font-size: 24px;
+  position: relative;
+  font-family: 'Allerta Stencil', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  height: 50%;
+  border-radius: 10px;
+  border: 10px solid black;
+}
+
+.content{
+  color: rgb(0, 92, 12);
+  background-color: black;
+  border-radius: 12px;
+  font-size: 36px;
+}
+
+.navbar{
+  position: relative;
+  line-height: 64px;
+  background-color: #131609;
+  overflow: hidden;
+}
+
+ul.navbar{
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline;
+  border-right: 1px solid grey;
+}
+
+.navbar a{
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #C4C7B6;
+  font-size: 24px;
+}
+
+.navbar li a:hover{
+  background-color: #C4C7B6;
+  color: black;
+}
+
+
+#Warzone{
+  padding: 0px;
+  position: relative;
+  width: auto;
+}
+
+#Warzone img{
+  width: 100%;
+  height: auto;
+}
+
+.btn{
+  width: 5%;
+  position: absolute;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.btn:hover{
+  width: 6%;
+}
+
+#btn1 {
+  top: 40%;
+  left: 73%;
+}
+
+#btn2{
+  display:none;
+  top: 65%;
+  left: 70%;
+}
+
+#btn3{
+  display:none;
+  top: 48%;
+  left: 53%;
+}
+
+#btn4 {
+  display:none;
+  top: 48%;
+  left: 35%;
+}
+
+#btn5 {
+  display:none;
+  top: 60%;
+  left: 25%;
+}
+
+#btn6 {
+  display:none;
+  top: 81%;
+  left: 28%;
+}
+
+.name{
+  position: relative;
+  display: inline-block;
+  line-height: 64px;
+  overflow: hidden;
+  font-size: 24pt;
+  width: 90%;
+  color: rgb(177, 177, 177);
+  padding: 2%;
+  text-align: justify;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+
