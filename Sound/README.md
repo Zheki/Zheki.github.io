@@ -33,6 +33,12 @@ The creation of the website played a critical role in being able to showcase the
  
 ### Reflection/Evaluation: 
 
-In the end most of the things that we aimed to put in the project were achieved. The experience that we aimed to give to the audience was achieved. But there were some things that we had to cut out due to inconsistency or being too ambitious. One was the use of different languages that we thought would bring more diversity and would be more accurate. This was scrapped for english dialogue as most users won't be able to understand the language and wont connect with the feelings of the soldiers. The other things that we wanted to add were subtle indications of different terrain and other small things but at the end most of them were scratched as it was too difficult to tell the subtle sounds apart from the louder ones.
+In the end most of the things that we aimed to put in the project were achieved. The experience that we aimed to give to the audience was achieved. But there were some things that we had to cut out due to inconsistency or being too ambitious. One was the use of different languages that we thought would bring more diversity and would be more accurate. This was scrapped for english dialogue as most users won't be able to understand the language and wont connect with the feelings of the soldiers. The other things that we wanted to add were subtle indications of different terrain and other small things but at the end most of them were scratched as it was too difficult to tell the subtle sounds apart from the louder ones. Overall, we were satisfied with the final output we produced based on the initial ideas we had. Although some ideas had to be dropped or modified, we took it in our stride as a learning experience. It taught us the nuances of creating a story to sound and the important aspects one needs to take into consideration while doing so. 
 
 
+### Credits:
+
+All the sounds not made by us are outsourced form freesound.org
+
+The Image of the battlefield was taken from a youtube video:
+“BIRDS-EYE VIEW Battles? You've Seen This Battle before but Not like This!” 8 Jan. 2019, www.youtube.com/watch?v=Fvk3H26ll_E. Accessed 10 Nov. 2020.
