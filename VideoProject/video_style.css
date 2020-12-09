@@ -1,0 +1,124 @@
+html {
+  background-color: #47bbdf;
+}
+header {
+  background-color: white;
+  border: 5px black;
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.3em;
+  color: rgb(13, 74, 109);
+}
+
+p {
+  font-size: 1.0vw;
+  color: white;
+  margin-top: 2px;
+
+}
+
+.fa.fa-check-circle,
+.fa.fa-flag,
+.fa.fa-play,
+.fa.fa-circle,
+.fa.fa-lock,
+.fa.fa-unlock-alt,
+.fa.fa-check {
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.fa.fa-check-circle:hover,
+.fa.fa-flag:hover,
+.fa.fa-play:hover,
+.fa.fa-circle:hover {
+  color: rgb(13, 74, 109);
+}
+
+/* ul li .fa::after {
+  content: "";
+  background: rgba(255, 255, 255, 0.568);
+  height: 5px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1;
+} */
+
+
+.progress{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress i {
+  width: 4.17vw;
+  margin-right: 20em;
+  text-align: center;
+  /* margin-bottom: 0;
+  padding-left: 0;
+  margin-right: 40px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress ul {
+  width: 100%;
+  text-align: center;
+  /* margin-top: 3em; */
+  /* margin-top: ;
+  margin-bottom: 0; */
+  padding: 0;
+  margin-top: 38px;
+  /* padding-left: 262px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.progress ul li {
+  width: 6.35%;
+  display: inline-block;
+  position: relative;
+  margin-right: 6vw;
+  margin-left: 6vw
+}
+
+#my_video {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5px;
+}
+
+#playme,
+#jump,
+#jump2 {
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  content: "";
+  background: rgba(255, 255, 255, 0.568);
+  height: 7px;
+  width: 40%;
+  display: block;
+  position: absolute;
+  left: 30%;
+
+  top: 142px;
+  z-index: -1;
+  /* margin-top: 6%; */
+}
