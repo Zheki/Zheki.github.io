@@ -78,4 +78,4 @@ function playVideo(startTime) {
     //     jump.className = "fa fa-check-circle fa-3x";
     // }
 }
-
+}
