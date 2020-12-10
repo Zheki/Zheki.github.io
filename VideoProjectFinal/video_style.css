@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(161, 181, 187);
+  background-image: url("paper1.png");
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body.background-image{
+  opacity: 0.1;
+}
+
+header {
+  background-color: rgb(192, 202, 228);
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.3em;
+  color: rgb(0, 141, 197);
+}
+
+p {
+  font-size: 1.0vw;
+  color: white;
+  margin-top: 2px;
+
+}
+
+.fa.fa-lock,
+.fa.fa-unlock-alt,
+.fa.fa-check {
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.fa.fa-lock:hover,
+.fa.fa-unlock-alt:hover,
+.fa.fa-check:hover {
+  color: rgb(13, 74, 109);
+}
+
+.progress i {
+  width: 4.17vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress ul {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin-top: 47px;
+}
+
+.progress ul li {
+  width: 6.35%;
+  display: inline-block;
+  position: relative;
+  margin-right: 6vw;
+  margin-left: 6vw
+}
+
+#my_video {
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5px;
+}
+
+#playme, #jump, #jump2 {
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  background: rgba(255, 255, 255, 0.568);
+  height: 7px;
+  width: 40%;
+  display: block;
+  position: absolute;
+  left: 30%;
+  top: 142px;
+  z-index: -1;
+}
