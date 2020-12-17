@@ -1,0 +1,297 @@
+/* Clearing all padding margins etc. */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+}
+
+html{
+    height: 95%;
+    margin: 0;
+}
+
+body{
+    background-color: #0f4c75;
+    height: 95%;   
+}
+
+
+/* Index text formatting */
+#front_text{
+    position: absolute;
+    top: 180px;
+    width: 70%;
+    left: 15%;
+    font-family: 'Roboto Mono', monospace;
+    color: #1b262c;
+}
+
+h1{
+    font-size: 5vw;
+    position: relative;
+    
+}
+
+h2{
+    font-size: 3vw;
+    position: relative;
+    margin-top: 2%;
+
+}
+
+h3{
+    font-size: 3vw;
+    position: relative;
+    margin-top: 3%;
+
+}
+
+
+/* Navigation Bar */
+nav{
+    height: 5vh;
+    width:100%;
+    background-color: #1b262c;
+}
+
+/* Proper alignment */
+nav ul{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1.04%;
+    width: 36.5%;
+}
+
+/* Proper alignment verticaly */
+nav ul li{
+    line-height: 5vh;
+}
+
+/* Style of navigation bar text */
+nav ul li a{
+    color: #bbe1fa;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.22vh;
+    padding: 0.56vh 0.83vw;
+}
+
+/* The button changes hovering over */
+nav ul li a:hover{
+    color: #1b262c;
+    background-color: #bbe1fa;
+}
+
+/* Change navigation bar size when lowering width */
+@media (max-width: 1170px) {
+    nav ul{
+        display: flex;
+        float: none;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+/* Style for the choice buttons on the home page */
+#choice{
+    position: absolute;
+    top: 70%;
+    width: 50%;
+    left: 25%;
+    right:25%;
+}
+
+#choice ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#choice ul li{
+    padding: 1.2vw;
+    background-color: #3282b8;
+    font-size: 2vw;
+}
+
+#choice ul li a{
+    color: #1b262c;
+    font-family: 'Verdana';
+    font-weight: 700;
+}
+
+/* Fixing choice buttons after lowering height (no collision with text) */
+@media (max-height: 820px) {
+    #choice{
+        position: absolute;
+        top: 600px;
+        width: 50;
+    }
+}
+
+/* Changing the words Zheki and Zheljko in the text */
+span::before { 
+    content: "Zheki"; 
+    animation: animate infinite 2s; 
+    padding-left: 10px;
+} 
+
+@keyframes animate { 
+  
+    0% {content: "Zheki";} 
+
+    50% {content: "Zheljko";} 
+
+    100% {content: "Zheki";} 
+} 
+
+/* Horizontal and vertical lines on page load animation */
+#line_hor{
+    position: absolute;
+    width: 95%;
+    height: 1%;
+    background-color: #1b262c;
+    top: 50%;
+    left: 2.5%;
+    margin: auto;
+    animation-name: hor;
+    animation-duration: 1s;
+}
+
+#line_ver{
+    position: absolute;
+    width: 0.5%;
+    height: 80%;
+    background-color: #1b262c;
+    top: 12%;
+    left: 49%;
+    animation-name: ver;
+    animation-duration: 1s;
+}
+
+@keyframes hor{
+    0% {width: 0; height: 1%;}
+    100% {width: 95%; height: 1% }
+}
+
+@keyframes ver{
+    0% {width: 0.5%; height: 0;}
+    100% {width: 0.5%; height: 80%;}
+}
+
+
+
+/* Making a flex box with two rows and two columns */
+.works{
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    word-wrap: break-word;
+    justify-content: space-evenly;
+  }
+
+  .works > div {
+    display: flex; 
+    flex-basis: calc(50% - 70px);  
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+  }
+
+.work{ 
+    position: relative;
+    animation-name: anim;
+    animation-duration: 1s;
+    opacity: 70%;
+}
+
+.work_txt{
+    position: relative;
+    font-size: 2h;
+    font-family: 'Roboto Mono', monospace;
+    animation-name: txt_anim;
+    animation-duration:1.5s;
+    animation-play-state: paused;
+}
+
+/* Positioning of icons */
+#mando{
+    left: 40%;
+    width: 25%;
+}
+
+
+#comic{
+    left: 40%;
+    width: 25%;
+}
+
+#origami{
+    left: 33%;
+    width: 30%;
+}
+
+
+#helmet{
+    left: 35%;
+    width: 25%;
+}
+
+
+.works p a{
+    color: #bbe1fa;
+}
+
+/* On hover */
+#mando:hover{
+    width:26%;
+    opacity: 100%;
+}
+
+#comic:hover{
+    width:26%;
+    opacity: 100%;
+}
+
+#origami:hover{
+    width: 31%;
+    opacity: 100%;
+}
+
+#helmet:hover{
+    width:26%;
+    opacity: 100%;
+}
+
+
+#about_me{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: #1b262c;
+    font-size: 2.1vw;
+    font-family: 'Roboto Mono', monospace;
+    width:50%;
+}
+
+#me{
+    position: absolute;
+    top: 15%;
+    left: 62%;
+    width: 30%;
+}
+
+@keyframes anim{
+    0% {opacity: 0%;}
+    100% {opacity: 70%;}
+}
+
+@keyframes txt_anim{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
