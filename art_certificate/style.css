@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+
+#art_btn {
+    width: 30%;
+    height: 11%;
+    left: 35%;
+    top: 80%;
+    background-color: rgb(20, 20, 20);
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(179, 179, 179);
+}
+
+#clicker{
+    font-size: 9vh;
+}
+
+#done{
+    display: none;
+    font-size: 6vh;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 1060px) {
+    div#art_btn {
+      display:none;
+    }
+}
+
+img {
+    position:absolute;
+    display: none;
+    top: 7%;
+    width: 60%;
+    left: 20%;
+}
+
+
